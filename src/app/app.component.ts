@@ -23,7 +23,7 @@ export class AppComponent implements OnInit {
     }
 
     selectedCountEvent(event) {
-        console.log('Event trigger', event );
+        console.log('Event trigger', event);
         this.pendingTaskNumber = event;
         console.log(event);
     }
