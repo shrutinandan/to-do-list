@@ -1,0 +1,14 @@
+<div class="main">
+    <div class="row main-form">
+        <div class="col-md-3 subform1">
+        </div>
+        <div class="col-md-9 subform2">
+            <label class="search-task"> Pending Tasks: {{pendingTaskNumber}}</label>
+            <app-list
+                [displayList]="toDoList"
+                (onSelectCheckbox)="selectedCountEvent($event)">
+            </app-list>
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,94 @@
+.text-input {
+    display: inline-flex;
+    margin-top: 6px;
+    height: 37px;
+}
+
+.search-form {
+    margin-right: 23px;
+}
+
+tr.completed-task > td {
+    text-decoration: line-through;
+}
+
+.search-task {
+    display: inline-block;
+    margin-left: 18px;
+    margin-top: 8px;
+}
+
+.searchDropdown {
+    margin: 4px;
+}
+
+.statusDropdown {
+    margin-left: 10px;
+}
+
+[hidden] {
+    display: none !important;
+}
+
+table.task-list {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.search-clear-box input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    color: black;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+}
+
+.search-clear-box input::-ms-clear {
+    display: none;
+}
+
+.search-clear-box input:focus {
+    border: 1px solid #4d90fe;
+}
+
+.search-clear-box .left-icon {
+    position: absolute;
+    left: 5px;
+    top: 11px;
+}
+
+.search-clear-box .fa {
+    color: #444;
+    font-size: 16px;
+}
+
+.search-clear-box .fa-remove {
+    color: red;
+}
+
+.search-clear-box .active {
+    color: #555;
+}
+
+.search-clear-box .right-icon {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    cursor: pointer;
+    color: red;
+}
+
+.search-clear-box {
+    position: relative;
+    width: 50%;
+}
+
+.dropdown-toggle {
+    margin-top: 4px;
+    height: 33px;
+}
+.pointer{
+    cursor: pointer;
+}
+

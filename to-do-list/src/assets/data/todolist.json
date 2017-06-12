@@ -1,0 +1,74 @@
+{
+    "list": [
+        {
+            "taskId": 1,
+            "title": "Get milk",
+            "priority": "High",
+            "status": 0,
+            "completed": false
+        },
+        {
+            "taskId": 2,
+            "title": "Make breakfast",
+            "priority": "High",
+            "status": 1,
+            "completed": true
+        },
+        {
+            "taskId": 3,
+            "title": "Bag packing",
+            "priority": "High",
+            "status": 2,
+            "completed": false
+        },
+        {
+            "taskId": 4,
+            "title": "Do laundry",
+            "priority": "Low",
+            "status": 0,
+            "completed": false
+        },
+        {
+            "taskId": 5,
+            "title": "Iron Clothes",
+            "priority": "High",
+            "status": 0,
+            "completed": false
+        },
+        {
+            "taskId": 6,
+            "title": "Do grocery",
+            "priority": "High",
+            "status": 1,
+            "completed": true
+        },
+        {
+            "taskId": 7,
+            "title": "Run dishwasher",
+            "priority": "High",
+            "status": 2,
+            "completed": false
+        },
+        {
+            "taskId": 8,
+            "title": "Wash car",
+            "priority": "Low",
+            "status": 0,
+            "completed": false
+        },
+        {
+            "taskId": 9,
+            "title": "Buy clothes",
+            "priority": "High",
+            "status": 2,
+            "completed": false
+        },
+        {
+            "taskId": 10,
+            "title": "Feed the dog",
+            "priority": "Low",
+            "status": 0,
+            "completed": false
+        }
+    ]
+}
