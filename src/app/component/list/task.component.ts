@@ -1,5 +1,7 @@
 import {Component, OnInit, Input, Output, EventEmitter} from '@angular/core';
 import {ListService} from 'app/services/list-service';
+import {SearchPipePipe} from 'app/pipes/search-pipe';
+import  {OrderbyIDPipe} from 'app/pipes/orderby-id.pipe';
 
 
 @Component({
@@ -132,10 +134,4 @@ export class ListComponent implements OnInit {
         this.displayList = this.displayList.slice();
         ++this.count;
     }
-
-    sort(property) {
-        this.isDesc = !this.isDesc; //change the direction
-        this.column = property;
-        this.direction = this.isDesc ? 1 : -1;
-    };
 }
